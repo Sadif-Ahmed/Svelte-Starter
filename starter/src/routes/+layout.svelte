@@ -2,9 +2,9 @@
 <script>
 	import '../app.postcss';
 
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, Chevron, DropdownDivider } from 'flowbite-svelte'
+	import { DarkMode,Navbar, NavBrand, NavLi, NavUl, NavHamburger, Dropdown, DropdownItem, Chevron, DropdownDivider } from 'flowbite-svelte'
   </script>
-  
+  <DarkMode/>
   <Navbar let:hidden let:toggle>
 	<NavBrand href="/">
 	  <img
